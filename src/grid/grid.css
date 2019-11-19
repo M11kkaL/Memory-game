@@ -1,0 +1,15 @@
+.Child {
+    width: auto;
+    height: 120px;
+    background-color: azure;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

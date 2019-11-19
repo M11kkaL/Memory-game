@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.points {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+    font-size: 30px;
+    padding-right: 30px;
+}
+.tries {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+}
