@@ -9,7 +9,7 @@ const Header = (props) => {
                 Points: {props.points}
                 </div>
                 <div className='tries'>
-                Lives: {props.lives > 0 ? props.lives : 0}
+                Lives: {props.lives < 0 ? 0 : props.lives}
                 </div>
             </div>
         );
