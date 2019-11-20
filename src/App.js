@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './App.css';
 import Grid from './grid/grid';
 import Header from './Header/header';
-import Footer from './Footer/footer';
 import GameOver from './gameOver/gameOver';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDog, faCat, faHorse, faSpider, faDragon, faFish, faHippo, faCrow } from '@fortawesome/free-solid-svg-icons'
@@ -98,7 +97,6 @@ class App extends Component {
         </div>
         {this.state.showGameOver && <GameOver points={this.state.points} text={this.state.gameOverText} />}
       </div>
-      <Footer />
     </div>
   );
   }

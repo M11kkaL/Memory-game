@@ -5,7 +5,7 @@ const Grid = (props) => {
         return ( 
             <div className='Child'
              onClick={props.click}>
-            <div className={props.style === 'front' ? 'front' : 'icon'}>
+            <div className='icon'>
                 {props.icon}
             </div>
 
